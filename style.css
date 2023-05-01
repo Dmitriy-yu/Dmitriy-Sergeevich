@@ -1,0 +1,791 @@
+body{
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+}
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header-line{
+    display: flex;
+   padding-top: 50px;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+
+.header-site{
+    display: inline-flex;
+  margin-top: 15px;
+
+}
+
+.header-logo{
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.nav-item{
+    margin-right: 20px;
+    text-decoration: none;
+font-size: 35px;
+}
+
+.telegram{
+    margin-left: 55px;   
+}
+
+.whats-app{
+    margin-left: 55px;
+}
+.burger-menu{
+display: none;
+}
+
+.photo{
+    width: 500px;
+    height: auto; 
+    box-shadow: -60px 40px rgb(165, 190, 248);
+}
+
+.header-page{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.hed-name{
+    margin-left: 130px;
+   margin-top: 100px;
+}
+.hed-name span{
+    font-size: 40px;
+    margin-left: 5px;
+   
+}
+
+.hed-name li{
+    font-size: 40px;
+}
+
+.about{
+    font-size: 62px;
+    text-align: center;
+}
+.study{
+    width: 70%;
+    font-size: 24px;
+    line-height: 1.6;
+}
+.about-first{
+    margin-bottom:10px;
+    width: 550px;
+}
+.about-first{
+    margin-bottom:10px;
+}
+.biografi-fotos{
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+.biografia{
+    display: flex;
+   margin-bottom: 20px;
+}
+
+.concurs-one{
+    width: 80%;
+    height: auto;
+   transition: 0.5s;
+}
+.concurs-one:hover{
+    transform:scale(1.5);
+}
+.concurs-two{
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 65px;
+    transition: 0.5s;
+}
+.concurs-two:hover{
+    transform:scale(1.5);
+}
+.concurs-three{
+    width: 95%;
+    height: auto;
+    position: relative;
+    top: 120px;
+    transition: 0.5s;
+}
+.concurs-three:hover{
+    transform:scale(1.5);
+}
+.text-right{
+    margin-top: 20px;
+    font-size: 24px;
+    width: 50%;
+    margin-left: 43px;
+    line-height: 1.6;
+}
+.diplom-victory{
+display: flex;
+
+}
+.diplom{
+ display: flex;
+ width: 55%;
+}
+.diploms{
+    margin-bottom: 150px;
+}
+
+.line-top{
+    border:1px solid rgb(143, 192, 238);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+.my-work-now{
+    width: 800px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+.line-bottom{
+    border:1px solid rgb(143, 192, 238);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:60px ;
+    margin-bottom: 60px;
+}
+
+.scils-title{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.scils-al{
+    display: flex;
+    justify-content: space-around;
+}
+.hands{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    background-size: auto 300px;
+
+}
+.skils-img{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.scils-koncert{
+    font-size: 30px;
+   text-align: center;
+   margin-top: 20px;
+}
+.scils-one{
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 30px;
+}
+
+.desktop{
+margin-top: 50px;
+}
+.desktop-title {
+    font-size: 50px; 
+    text-align: center; 
+    margin-bottom: 20px;     
+}
+.desktop-text{  
+font-size: 30px;
+
+}
+.desktop-write{
+    width: 600px;
+    margin-right: 100px;
+    position: relative;
+    bottom: 10px;
+}
+.desktop-img{
+    width: 550px;
+    height: 450px; 
+}
+.desktop-item{
+    display: flex;
+}
+.write-bayn{
+    display: flex;
+}
+.quotation{
+    position: relative;
+    top: 10px;
+   
+}
+.teacher{
+    background-color: #96cff5;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.write{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+.text-students{
+    width: 65%;
+    font-size: 30px;
+    line-height: 1.6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto-one{
+    width: 30%;
+ 
+    margin-bottom: 20px;
+}
+.all-winds{
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.video-title{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+}
+.video-all{
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.video-all{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-write{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer-site{
+    display: flex;
+    justify-content: center;  
+}
+.footer{
+    background-color: #8cf0ad ;
+    padding: 35px;
+    margin-top: 80px;
+}
+
+@media(max-width:1200px){
+    .video-all{
+display: block;
+    }
+    .video-one{
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+    .video-two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .video-all{
+        margin-top: 20px;
+    }
+    .video-title{
+        font-size: 60px;
+    }
+    .foto-one{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+      
+    }
+    .text-students{
+        font-size: 30px;
+        line-height: 1;
+       margin-bottom: 20px;
+    }
+    .my-students{
+margin-top: 20px;
+    }
+    .write-bayn{
+        display: block;
+    }
+    .write{
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+       
+    }
+   .quotation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .desktop-item{
+display: block;
+   }
+   .desktop-write{
+    width: 350px;
+   display: flex;
+   text-align: center;
+   line-height: 1;
+   margin-bottom: 20px;
+   }
+   .desktop-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+     height: 280px;
+
+   }
+   .desktop-item{
+    display:block;
+    text-align: center;
+   }
+
+   .desktop-title{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+   }
+
+   .scils-al{
+    display: block;
+   }
+   .scils-title {
+    font-size: 50px;
+   }
+
+   .my-work-now{
+    width: 350px;
+   }
+
+   .my-work-now{
+    text-align: center;
+    line-height: 1;
+   }
+
+   .diplom-victory{
+    display: block;
+   }
+   .diplom{
+    display: block;
+    align-items: center;
+    justify-content: center;
+   }
+   .concurs-one{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+   }
+   .concurs-one:hover{
+    transform:none;
+}
+.concurs-two{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+   }
+   .concurs-two:hover{
+    transform:none;
+}
+.concurs-three{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+   }
+   .concurs-three:hover{
+    transform:none;
+}
+   .line-top{
+    margin-top: 20px;
+   }
+
+   .text-right{
+    width: 350px;
+    text-align: center;
+    margin-top: 150px;
+    line-height: 1;
+   }
+   .diploms{
+margin-bottom: 40px;
+   }
+
+   .about{
+font-size: 50px;
+margin-top: 0;
+   }
+ 
+   .about-first{
+    width: 350px;
+    text-align: center;
+    line-height: 1;
+    margin-right: 0;
+    right: 0;
+    left: 0;
+   }
+   .about-second{
+    width: 350px;
+    text-align: center;
+    line-height: 1;
+    right: 0;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
+   }
+   .study{
+    text-align: center;
+   }
+   .biografi-foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   }
+   .biografia{
+    display: block;
+   }
+   .biografi-fotos{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width:450px;
+    height: auto;
+    left: 0;
+    top: 0;
+    margin-top: 20px;
+
+   }
+   .header-page{
+    display: block;
+   
+   }
+   .hed-name span{
+       font-size: 40px; 
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .hed-name{
+    margin: 0;
+    text-align: center;
+   }
+
+.hed-name li{
+    font-size: 33px;
+    text-align: center;
+    margin-left: 0;
+}
+
+.photo{
+    width: 350px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hed-name{
+margin-top: 50px;
+}
+}
+@media(max-width:998px){
+
+.study{
+    width: auto;
+    left: 0px;
+    top: 0px; 
+    margin-right: 0;
+    margin-left: 0;
+}
+.about-first{
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    margin-right: auto;
+    margin-left: auto;   
+}
+.about-second{
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    margin-right: auto;
+    margin-left: auto;   
+}
+.diplom{
+    width: auto;
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    margin-right: auto;
+    margin-left: auto;   
+}
+.text-right{
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    margin-right: auto;
+    margin-left: auto;   
+}
+.diplom-1{
+   display: flex;
+   justify-content: center;  
+   align-items: center;
+}
+.diplom-2{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+ }
+ .diplom-3{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+ }
+.desktop-write{
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    margin-right: auto;
+    margin-left: auto;  
+}
+.desktop-img{
+    width: 350px;
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+.foto-one{
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    margin-right: auto;
+    margin-left: auto;  
+}
+.header-page{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.burger-menu{
+    display:block;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+.nav-item,
+.nav,
+.header-site{
+display:none;
+}
+.nav-i{
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    position: relative;
+    right: 150px;
+    top: 30px;
+    background: linear-gradient(90deg, #b9deed, #efefef);
+    opacity:0.6;
+   
+}
+#menu{
+    position: fixed;
+}
+.burger-slide{
+    position: absolute;
+  
+}
+button{
+border: none;
+outline: none;
+background-color: transparent;
+position: fixed;
+}
+.disp{
+    display: none;
+   
+}
+#burger{
+    position: relative;
+    right: 10px;
+    position: fixed;
+}
+}
+@media(max-width:1200px){
+
+    .study{
+        width: auto;
+      
+        left: 0px;
+        top: 0px; 
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .about-first{
+        position: relative;
+        font-size: 34px;
+        left: 0px;
+        top: 0px; 
+        margin-right: auto;
+        margin-left: auto;  
+    
+    }
+    .about-second{
+        position: relative;
+        left: 0px;
+        top: 0px; 
+        margin-right: auto;
+        margin-left: auto;   
+        font-size: 34px;
+    }
+    .diplom{
+        width: auto;
+        position: relative;
+        left: 0px;
+        top: 0px; 
+        margin-right: auto;
+        margin-left: auto;   
+    }
+    .text-right{
+        position: relative;
+        left: 0px;
+        top: 0px; 
+        margin-right: auto;
+        margin-left: auto;   
+        font-size: 34px;
+    }
+    .diplom-1{
+       display: flex;
+       justify-content: center;  
+       align-items: center;
+    }
+    .diplom-2{
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+     }
+     .diplom-3{
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+     }
+     .my-work-now{
+        font-size: 34px;
+     }
+
+    .desktop-write{
+        position: relative;
+        left: 0px;
+        top: 0px; 
+        margin-right: auto;
+        margin-left: auto;  
+        font-size: 34px
+    }
+    .desktop-img{
+        width: 350px;
+        position: relative;
+        left: 0px;
+        top: 0px; 
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .foto-one{
+        position: relative;
+        left: 0px;
+        top: 0px; 
+        margin-right: auto;
+        margin-left: auto;  
+    }
+    .header-page{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .burger-menu{
+        display:block;
+        position: relative;
+        bottom: 20px;
+        right: 10px;
+    }
+    .video-one{
+margin-bottom: 40px;
+    }
+
+    .nav-item,
+    .nav,
+    .header-site{
+    display:none;
+    }
+    .nav-i{
+        text-decoration: none;
+        display: block;
+        font-size: 30px;
+        position: relative;
+        right: 150px;
+        top: 30px;
+        background: linear-gradient(90deg, #b9deed, #efefef);
+        opacity:0.6;
+       
+    }
+    #menu{
+        position: fixed;
+    }
+    .burger-slide{
+        position: absolute;
+      
+    }
+    button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: fixed;
+    }
+    .disp{
+        display: none;
+       
+    }
+    #burger{
+        position: relative;
+        right: 10px;
+        position: fixed;
+    }
+    }
